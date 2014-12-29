@@ -53,7 +53,7 @@ return array(
 			'route' => array(
 				'type' => 'Segment',
 				'options' => array(
-					'route' => '/route[/:origin[/:destination]]',
+					'route' => '/api/route[/:origin[/:destination]]',
 					'defaults' => array(
                         '__NAMESPACE__' => 'Application\Controller',
                         'controller' => 'Route',
